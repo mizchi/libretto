@@ -1,6 +1,7 @@
 {
   "name": "libretto",
-  "version": "0.0.0",
+  "main": "libretto.js",
+  "version": "0.0.1",
   "authors": [
     "Koutarou Chikuba <miz404@gmail.com>"
   ],
