@@ -58,8 +58,7 @@ class Libretto
     delete @_promise
     @cancel()
 
-
 if window?
-  window.Libretto
+  window.Libretto = Libretto
 else if module?
   module.exports = Libretto

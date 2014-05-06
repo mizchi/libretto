@@ -122,7 +122,7 @@
   })();
 
   if (typeof window !== "undefined" && window !== null) {
-    window.Libretto;
+    window.Libretto = Libretto;
   } else if (typeof module !== "undefined" && module !== null) {
     module.exports = Libretto;
   }
