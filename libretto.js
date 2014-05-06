@@ -74,15 +74,14 @@
       }
     };
 
-    function Libretto(context) {
+    function Libretto() {
       this.dispose = __bind(this.dispose, this);
       this.cancel = __bind(this.cancel, this);
       this.then = __bind(this.then, this);
       this.end = __bind(this.end, this);
       this.start = __bind(this.start, this);
-      if (context == null) {
-        context = {};
-      }
+      var context;
+      context = {};
       this._promise = new Promise((function(_this) {
         return function(done) {
           var action;

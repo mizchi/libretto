@@ -33,8 +33,8 @@ class Libretto
           throw 'error'
         @steps[@current]
 
-  constructor: (context) ->
-    context ?= {}
+  constructor: () ->
+    context = {}
     @_promise = new Promise (done) =>
       action = (result) =>
         @current = @getNextStep(result)
